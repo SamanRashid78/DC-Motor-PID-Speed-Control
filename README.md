@@ -1,4 +1,4 @@
-# DC Motor Speed Control — PID Controller
+# DC Motor Speed Control (PID Controller)
 A MATLAB project modelling a DC motor as a transfer function and designing a PID controller to regulate its speed. Performance is evaluated through step response analysis and compared against the uncontrolled open-loop system.
 
 ## What This Project Does
