@@ -2,7 +2,7 @@
 A MATLAB project modelling a DC motor as a transfer function and designing a PID controller to regulate its speed. Performance is evaluated through step response analysis and compared against the uncontrolled open-loop system.
 
 ## What This Project Does
-In real motor control systems, an untuned motor responds slowly and imprecisely to speed commands. This project models a DC motor using a first-order transfer function, then designs a PID controller to improve response speed, reduce overshoot, and eliminate steady-state error — all verified through step response plots.
+In real motor control systems, an untuned motor responds slowly and imprecisely to speed commands. This project models a DC motor using a first-order transfer function, then designs a PID controller to improve response speed, reduce overshoot, and eliminate steady-state error, all verified through step response plots.
 
 ## How It Works
 1. DC motor modelled as a first-order transfer function G(s) = K/(τs + 1)
@@ -13,10 +13,11 @@ In real motor control systems, an untuned motor responds slowly and imprecisely 
 6. Performance metrics extracted: overshoot, settling time, rise time
 
 ## Results
-- **Overshoot:** XX%
-- **Settling time:** XX s
-- **Rise time:** XX s
-- **Steady-state error:** ~0 (eliminated by integral term)
+- **Overshoot:** 0.0%
+- **Settling time:** 6.33 s
+- **Rise time:** 1.65 s
+- **Steady-state:** 1.000
+- **Peak:** 1.000
 
 ## Files
 ```
@@ -25,7 +26,7 @@ dc-motor-pid-speed-control/
 ├── pidManual.m         ← PID design and closed-loop step response
 ├── compareResponse.m   ← open-loop vs PID on a single plot
 ├── gainEffect.m        ← effect of varying Kp on system response
-├── metrics.m           ← prints overshoot, settling time, rise time
+├── data.m           ← prints overshoot, settling time, rise time
 └── README.md
 ```
 ## How to Run
@@ -33,7 +34,7 @@ dc-motor-pid-speed-control/
 2. Run `pidManual.m` to apply the PID controller
 3. Run `compareResponse.m` for the before/after comparison plot
 4. Run `gainEffect.m` to see how Kp affects the response
-5. Run `metrics.m` to print performance numbers in the command window
+5. Run `data.m` to print performance numbers in the command window
 
 ## Tools Used
 - MATLAB R2014a
