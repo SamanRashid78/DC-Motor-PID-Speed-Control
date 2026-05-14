@@ -27,6 +27,7 @@ dc-motor-pid-speed-control/
 ├── compareResponse.m   ← open-loop vs PID on a single plot
 ├── gainEffect.m        ← effect of varying Kp on system response
 ├── data.m           ← prints overshoot, settling time, rise time
+├── figures.pdf           ← annotated screenshots with descriptions
 └── README.md
 ```
 ## How to Run
