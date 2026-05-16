@@ -26,7 +26,7 @@ dc-motor-pid-speed-control/
 ├── pidManual.m         ← PID design and closed-loop step response
 ├── compareResponse.m   ← open-loop vs PID on a single plot
 ├── gainEffect.m        ← effect of varying Kp on system response
-├── data.m           ← prints overshoot, settling time, rise time
+├── metrics.m           ← prints overshoot, settling time, rise time
 ├── figures.pdf           ← annotated screenshots with descriptions
 └── README.md
 ```
@@ -35,7 +35,7 @@ dc-motor-pid-speed-control/
 2. Run `pidManual.m` to apply the PID controller
 3. Run `compareResponse.m` for the before/after comparison plot
 4. Run `gainEffect.m` to see how Kp affects the response
-5. Run `data.m` to print performance numbers in the command window
+5. Run `metrics.m` to print performance numbers in the command window
 
 ## Tools Used
 - MATLAB R2014a
