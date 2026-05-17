@@ -1,0 +1,19 @@
+# MATLAB autosave files
+*.asv
+
+# Compiled MEX files
+*.mex*
+*.mexw64
+*.mexw32
+*.mexmaci64
+
+# Simulink cache and build output
+slprj/
+*.slxc
+
+# MATLAB binary figure files
+*.fig
+
+# Windows
+Thumbs.db
+Desktop.ini
